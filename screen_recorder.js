@@ -22,7 +22,7 @@ window.startScreenRecording = async function () {
 
     // ✅ Generate timestamped filename
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-    const filename = `Athlon-Player-${timestamp}.webm`;
+    const filename = `Athlon-Player-${timestamp}.mp4`;
 
     const a = document.createElement('a');
     a.href = url;
